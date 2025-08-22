@@ -6,8 +6,8 @@ export default function Header() {
       
       {/* IZQUIERDA: Dropbutton */}
       <div>
-        <button className="flex items-center gap-1 text-sm px-2 py-1 bg-gray-100 hover:bg-gray-200 rounded">
-          Menú
+        <button className="flex items-center gap-1 text-sm px-2  font-bold bg-gray-100 hover:bg-gray-200 rounded">
+          Centro de revisiones tecnicas pedrito
           <i className="bx bx-chevron-down text-lg"></i>
         </button>
       </div>
