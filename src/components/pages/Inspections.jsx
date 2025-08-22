@@ -1,4 +1,5 @@
-import ContentHead from '../ui/ContentHead';
+import ContentHead from './../ui/ContentHead';
+>>>>>>> 86c39d5fd3a77e996833c25672873adea81e2fcd
 
 export default function Inspections() {
   // Mock de datos (ajústalos según tu API)

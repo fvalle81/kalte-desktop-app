@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Header />
 
         
-      <div className="wrapper border rounded-lg border-gray-200 flex-1 overflow-auto  flex  m-1  "> {/* Wrapper-content */}
+      <div className="wrapper border rounded-lg border-gray-200 flex-1 overflow-auto  flex  m-2 "> {/* Wrapper-content */}
         <aside className="w-64    p-4"> {/* Sidebar a la derecha */}
           <Sidebar />
         </aside>
