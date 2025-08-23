@@ -1,0 +1,30 @@
+{
+  "appName": "Gestor Vehicular",
+  "version": "1.0.0",
+  "environment": "development",
+  "enableDebug": true,
+
+  "api": {
+    "identifier": "43c9f32a-2ad4-43ab-a0cc-1748ef5609a7",
+    "endpoints": {
+        "inspections":   "http://127.0.0.1:8000/api/citv/inspections" ,
+        "facilities":   "http://127.0.0.1:8000/api/v2/facilities" ,
+        "invoices":   "http://127.0.0.1:8000/api/v2/invoice" 
+    }
+  },
+ 
+  "features": {
+    "registroVehiculos": true,
+    "reportes": true,
+    "moduloUsuarios": false
+  },
+
+
+  "theme": {
+    "headerColor": "#004aad",
+    "backgroundColor": "#f4f4f4",
+    "primaryTextColor": "#1a1a1a",
+    "logoUrl": "/assets/logo.svg",
+    "darkMode": false
+  }
+}
